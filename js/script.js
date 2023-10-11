@@ -20,7 +20,7 @@ window.onload = () => {
     };
 
     const btnNewTask = document.createElement("button");
-    btnNewTask.innerText = "Cancellami";
+    btnNewTask.innerText = "Delete";
 
     btnNewTask.onclick = function (e) {
       const clickedBtn = e.target;

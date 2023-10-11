@@ -5,6 +5,7 @@
 body {
   font-family: "Tilt Neon", sans-serif;
   background-color: #f2f2f2;
+  padding: 1rem;
 }
 
 h1 {
@@ -16,17 +17,22 @@ h1 {
 
 header div {
   display: inline-block;
-  margin-inline: -3px;
+  margin-inline: -1px;
+}
+#task,
+#add-task {
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 header div:nth-child(2) {
-  width: 85%;
+  width: 80%;
 }
 header div:nth-child(2) input {
   min-width: 100%;
 }
 
 header div:nth-child(3) {
-  width: 15%;
+  width: 20%;
 }
 
 main div {
@@ -41,6 +47,7 @@ main {
 }
 main div > div:first-child {
   width: 90%;
+  word-wrap: break-word;
 }
 
 main div div:last-child {
@@ -50,6 +57,7 @@ button {
   background-color: #8c1f28;
   color: white;
   border-radius: 5px;
+  text-align: end;
 }
 
 .barred-text {
