@@ -17,30 +17,31 @@ h1 {
 
 header div {
   display: inline-block;
-  margin-inline: -1px;
+}
+.div-header {
+  width: calc(100% - 84px);
+  margin-right: -4px;
 }
 #task,
 #add-task {
   font-size: 1.1rem;
   font-weight: 500;
-}
-header div:nth-child(2) {
-  width: 80%;
-}
-header div:nth-child(2) input {
-  min-width: 100%;
+  width: 100%;
 }
 
-header div:nth-child(3) {
-  width: 20%;
+header button {
+  width: 150px;
+  text-align: center;
 }
 
-main div {
+main > div {
   margin-inline: -2px;
   background-color: #044040ba;
   border-radius: 5px;
   -webkit-box-shadow: 4px 4px 15px -2px rgba(0, 0, 0, 0.75);
   box-shadow: 4px 4px 15px -2px rgba(0, 0, 0, 0.75);
+  margin: 1rem 0 1rem;
+  padding: 1rem;
 }
 main {
   color: #f2f2f2;
@@ -48,6 +49,7 @@ main {
 main div > div:first-child {
   width: 90%;
   word-wrap: break-word;
+  margin: 2rem;
 }
 
 main div div:last-child {
@@ -57,7 +59,11 @@ button {
   background-color: #8c1f28;
   color: white;
   border-radius: 5px;
-  text-align: end;
+  display: block;
+  margin-left: auto;
+}
+main p {
+  margin: 0px;
 }
 
 .barred-text {
